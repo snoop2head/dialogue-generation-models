@@ -5,8 +5,8 @@ import numpy as np
 import torch
 
 import sentencepiece as spm
-from ..dialogue_generation_models.configuration_gpt import GPT2Config
-from ..dialogue_generation_models.modeling_gpt import GPT2LMHeadModel
+from dialogue_generation_models.configuration_gpt import GPT2Config
+from dialogue_generation_models.modeling_gpt import GPT2LMHeadModel
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--pretrained-model-path", type=str, help="Path to pre-trained model", required=True)
